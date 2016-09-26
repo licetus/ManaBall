@@ -14,6 +14,9 @@
 		9D49E4261D9510A1009E71E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D49E4241D9510A1009E71E2 /* LaunchScreen.storyboard */; };
 		9D49E4311D9510A1009E71E2 /* ManaBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49E4301D9510A1009E71E2 /* ManaBallTests.swift */; };
 		9D49E43C1D9510A1009E71E2 /* ManaBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49E43B1D9510A1009E71E2 /* ManaBallUITests.swift */; };
+		9D49E44A1D951276009E71E2 /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49E4491D951276009E71E2 /* PlayerState.swift */; };
+		9D49E44C1D9512C1009E71E2 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49E44B1D9512C1009E71E2 /* Skill.swift */; };
+		9D49E44E1D953042009E71E2 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49E44D1D953042009E71E2 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9D49E4371D9510A1009E71E2 /* ManaBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManaBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D49E43B1D9510A1009E71E2 /* ManaBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaBallUITests.swift; sourceTree = "<group>"; };
 		9D49E43D1D9510A1009E71E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D49E4491D951276009E71E2 /* PlayerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
+		9D49E44B1D9512C1009E71E2 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		9D49E44D1D953042009E71E2 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				9D49E4221D9510A1009E71E2 /* Assets.xcassets */,
 				9D49E4241D9510A1009E71E2 /* LaunchScreen.storyboard */,
 				9D49E4271D9510A1009E71E2 /* Info.plist */,
+				9D49E4491D951276009E71E2 /* PlayerState.swift */,
+				9D49E44B1D9512C1009E71E2 /* Skill.swift */,
+				9D49E44D1D953042009E71E2 /* GameState.swift */,
 			);
 			path = ManaBall;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D49E41E1D9510A1009E71E2 /* ViewController.swift in Sources */,
+				9D49E44C1D9512C1009E71E2 /* Skill.swift in Sources */,
+				9D49E44E1D953042009E71E2 /* GameState.swift in Sources */,
 				9D49E41C1D9510A1009E71E2 /* AppDelegate.swift in Sources */,
+				9D49E44A1D951276009E71E2 /* PlayerState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
